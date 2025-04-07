@@ -92,18 +92,18 @@ const LandingPage = () => {
             path: "/products",
             icon: <ShoppingCart size={40} className="text-yellow-400 mx-auto mb-3" />,
             title: "Product Management",
-            description: "Easily add, edit, and delete products in stock.",
+            description: "Easily add, edit,update and delete products in stock.",
           },
           {
             path: "/stock-overview",
             icon: <BarChart3 size={40} className="text-green-400 mx-auto mb-3" />,
             title: "Stock Overview",
-            description: "Monitor available stock, items sold, and revenue trends.",
+            description: "Review available stock, items sold, and revenue trends.",
           },
           {
             path: "/analytics",
             icon: <FileText size={40} className="text-purple-400 mx-auto mb-3" />,
-            title: "Analysis",
+            title: "Analytics",
             description: "Generate reports in charts.",
           },
         ].map((feature, index) => (
