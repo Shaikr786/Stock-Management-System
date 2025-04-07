@@ -34,13 +34,11 @@ cd Stock-Management-Api
 
 #### Backend Setup
 ```sh
-cd Stock-Management-Api
 npm install
 ```
 
 #### Frontend Setup
 ```sh
-cd frontend
 npm install
 ```
 
@@ -66,13 +64,13 @@ BASE_URL="http://localhost:5000/api"
 
 #### Start Backend
 ```sh
-cd backend
+cd Stock-Management-Api
 npm run dev
 ```
 
 #### Start Frontend
 ```sh
-cd frontend
+cd Stock-Management-System
 npm run dev
 ```
 
